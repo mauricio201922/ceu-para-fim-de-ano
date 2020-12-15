@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Game virtual - ceu para fim de ano</title>
+        <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+        <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+        <script src="https://unpkg.com/aframe-layout-component@4.x.x/dist/aframe-layout-component.min.js"></script>
+        <script src="https://unpkg.com/aframe-event-set-component@5.x.x/dist/aframe-event-set-component.min.js"></script>
+
+        <script>
+            var entity = document.querySelector('[sound]');
+            entity.components.sound.playSound();
+        </script>
+    </head>
+    <body>
+        <a-scene>
+
+            <a-entity light="type: ambient; color: black"></a-entity>
+
+            <a-video src="videos/y2mate.com - Counting Stars - One Republic - w Chrissy & Alex Goot_1080p.mp4" width="8" height="8" position="-4 4 -3" volume="0.5"></a-video>
+
+            <a-box width="2" height="8" position="1.2 4 -3" src="image/caixaDeSom.jpg"></a-box>
+            <a-box width="2" height="8" position="-9.2 4 -3" src="image/caixaDeSom.jpg"></a-box>
+
+            <a-sphere color="red" position="0 28 -5" scale="2 2 2" animation="property: object3D.position.x; to: 15.2; dir: alternate; dur: 1000; loop: true"
+            scale-on-mouseenter></a-sphere>
+            <a-sphere
+                color="yellow"
+                position="-6 35 -5"
+                scale="2 2 2"
+                animation__position="property: object3D.position.x; to: 2.2; dir: alternate; dur: 2000; loop: true"
+                animation__rotation="property: object3D.rotation.x; to: 2.2; dir: alternate; dur: 2000; loop: true">
+            </a-sphere>
+
+            <a-sphere
+                color="blue"
+                position="-12 25 5"
+                scale="2 2 2"
+                animation__position="property: object3D.position.x; to: 2.2; dir: alternate; dur: 800; loop: true"
+                animation__rotation="property: object3D.rotation.x; to: 2.2; dir: alternate; dur: 2000; loop: true">
+            </a-sphere>
+
+            <a-sphere
+                color="green"
+                position="-2 32 -5"
+                scale="2 2 2"
+                animation__position="property: object3D.position.x; to: 2.2; dir: alternate; dur: 2000; loop: true"
+                animation__rotation="property: object3D.rotation.x; to: 2.2; dir: alternate; dur: 2000; loop: true">
+            </a-sphere>
+
+            <a-sphere
+                color="pink"
+                position="6 23 1"
+                scale="2 2 2"
+                animation__position="property: object3D.position.x; to: 2.2; dir: alternate; dur: 2000; loop: true"
+                animation__rotation="property: object3D.rotation.x; to: 2.2; dir: alternate; dur: 2000; loop: true">
+            </a-sphere>
+
+            <a-sphere
+                color="red"
+                position="-6 35 -1"
+                scale="2 2 2"
+                animation__position="property: object3D.position.x; to: 2.2; dir: alternate; dur: 2000; loop: true"
+                animation__rotation="property: object3D.rotation.x; to: 2.2; dir: alternate; dur: 2000; loop: true">
+            </a-sphere>
+
+            <a-sphere
+                color="blue"
+                position="2 30 5"
+                scale="2 2 2"
+                animation__position="property: object3D.position.x; to: 2.2; dir: alternate; dur: 2000; loop: true"
+                animation__rotation="property: object3D.rotation.x; to: 2.2; dir: alternate; dur: 2000; loop: true">
+            </a-sphere>
+
+            <a-sphere
+                color="red"
+                position="-13 26 -2"
+                scale="2 2 2"
+                animation__position="property: object3D.position.x; to: 2.2; dir: alternate; dur: 2000; loop: true"
+                animation__rotation="property: object3D.rotation.x; to: 2.2; dir: alternate; dur: 2000; loop: true">
+            </a-sphere>
+
+            <a-sphere
+                color="yellow"
+                position="15 31 -3"
+                scale="2 2 2"
+                animation__position="property: object3D.position.x; to: 2.2; dir: alternate; dur: 1000; loop: true"
+                animation__rotation="property: object3D.rotation.x; to: 2.2; dir: alternate; dur: 500; loop: true">
+            </a-sphere>
+
+            <a-sphere
+                color="green"
+                position="-10 20 -7"
+                scale="2 2 2"
+                animation__position="property: object3D.position.x; to: 2.2; dir: alternate; dur: 500; loop: true"
+                animation__rotation="property: object3D.rotation.x; to: 2.2; dir: alternate; dur: 500; loop: true">
+            </a-sphere>
+
+            <a-sphere
+                color="pink"
+                position="-3 20 0"
+                scale="2 2 2"
+                animation__position="property: object3D.position.x; to: 2.2; dir: alternate; dur: 1500; loop: true"
+                animation__rotation="property: object3D.rotation.x; to: 2.2; dir: alternate; dur: 500; loop: true">
+            </a-sphere>
+
+            <a-sphere
+                color="red"
+                position="7 22 15"
+                scale="2 2 2"
+                animation__position="property: object3D.position.x; to: 2.2; dir: alternate; dur: 500; loop: true"
+                animation__rotation="property: object3D.rotation.x; to: 2.2; dir: alternate; dur: 500; loop: true">
+            </a-sphere>
+
+            <a-sphere
+                color="blue"
+                position="-1 26 -13"
+                scale="2 2 2"
+                animation__position="property: object3D.position.x; to: 2.2; dir: alternate; dur: 2500; loop: true"
+                animation__rotation="property: object3D.rotation.x; to: 2.2; dir: alternate; dur: 500; loop: true">
+            </a-sphere>
+
+            <a-entity position="0 0 7">
+                <a-camera>
+                    <a-cursor></a-cursor>
+                </a-camera>
+            </a-entity>
+
+            <a-entity
+                text="value: Feliz Ano Novo!!!; color: red;"
+                position="0.5 2 -2"
+                scale="15 15 15">
+            </a-entity>
+
+            <a-entity environment="preset: forest; dressingAmount: 500"></a-entity>
+        </a-scene>
+    </body>
+</html>
